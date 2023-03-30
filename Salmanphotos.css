@@ -1,0 +1,46 @@
+body{
+    /* background-image: url(./salman-khan_148957114400.jpg);   */
+    background-size: cover;
+    opacity: 5;
+}
+#f{
+    padding-left: 50%;
+    display: flex;
+    justify-content:space-around;
+    background-image: url(./Border\ Patti.jpg);
+    color: white;
+}
+h2,#n{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#a{
+    border: solid;
+    border-color: chocolate;
+    padding-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    color: brown;
+}
+#b{
+    padding-left: 10%;
+    }
+#h{
+        color: blueviolet;
+    }
+h1{
+    background-color: violet;
+    border: ridge;
+    width: 200px;
+    color: rgb(77, 4, 113);
+    }
+#d{
+    margin-top: 2%;
+    color: darkred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+    }
+   
+div{
+    display: inline-block;
+    }

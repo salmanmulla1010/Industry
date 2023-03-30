@@ -1,0 +1,16 @@
+body{
+    background-position: center;
+    background-image: url(bollywood-header-img.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+h1{
+    color: blue;
+    margin-bottom: 5%;
+    border: solid yellow;
+    border-color:white;
+    background-color: turquoise;
+    width: 400px;
+    margin-left: 35%;
+    
+}

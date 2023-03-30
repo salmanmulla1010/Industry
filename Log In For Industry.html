@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function log(){
+
+            var p= document.form.email.value;
+            var k = document.form.pass.value;
+            var e=p.toLocaleLowerCase()+"";
+
+                for (var i = 0; i <e.length; i++) {
+                    if(e.charAt(0)>='a'&&e.charAt(0)<='z' && e.includes("@gmail.com")){
+                            if(k==1234){
+                                window.open("file:///D:/Nasar%20Sir/Web%20Tachnology/Assignment/Industry.html");
+                            }else{
+                                 document.write("Invalid Password.");
+                            }
+                        }else{
+                        document.write("Enter Valid Email: ");
+                        break;
+                    }                   
+                }
+            }
+    </script>
+</head>
+<body>
+    <H1 align="center">Log In...😊😊</H1>
+   <div align="center"> 
+
+    <form name="form" method="post">  
+        <label>Enter Email: </label>
+        <input type="email" name="email"><br><br>
+
+        <label>Enter Password: </label>
+        <input type="password" name="pass"><br><br>
+
+        <input type="submit" value="enter" onclick="return log()">
+    </form>
+</div>
+</body>
+</html>
